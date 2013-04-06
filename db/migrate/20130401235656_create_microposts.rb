@@ -1,9 +1,9 @@
 class CreateMicroposts < ActiveRecord::Migration
   def change
     create_table :microposts do |t|
-      t.string :content
+      t.string  :content
       t.integer :user_id
-      #t.string :integer
+      t.integer :integer
 
       t.timestamps
     end
